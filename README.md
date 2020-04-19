@@ -2,7 +2,7 @@
 
 # 🤖 Social Manager Tools: 📷 Instagram Bot API
 
-[![](https://img.shields.io/badge/version-v0.10.0--nightly.20200208-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-igbot/releases) [![](https://img.shields.io/npm/v/@social-manager-tools/igbot.svg)](https://www.npmjs.com/package/@social-manager-tools/igbot) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/npm/@social-manager-tools/igbot/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-igbot)
+[![](https://img.shields.io/badge/version-v0.9.25-lightgrey.svg)](https://github.com/social-manager-tools/socialmanagertools-igbot/releases) [![](https://img.shields.io/npm/v/@social-manager-tools/igbot.svg)](https://www.npmjs.com/package/@social-manager-tools/igbot) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](#) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://img.shields.io/badge/powered%20by-puppeteer-46aef7.svg)](https://github.com/GoogleChrome/puppeteer) [![](https://snyk.io/test/npm/@social-manager-tools/igbot/badge.svg)](https://snyk.io/test/github/social-manager-tools/socialmanagertools-igbot)
 
 > This library (including bot and API methods) allow you to increase visits, likes and followers on your social profile through different algorithms and offers API for developers to include custom bot functionality in their  own applications. You will increase likes on your photos and your followers!
 
@@ -19,7 +19,7 @@
 - 💡 [Features](#-features)
 - 💾 Installation:
 	- 🔨 [Install From Source](http://docs.socialmanager.tools/igbot/installation/source/README.md)
-	- 🔨 [Install From NPM](http://docs.socialmanager.tools/igbot/installation/npm/README.md)
+	- 🔨 [Install From NPM](http://docs.socialmanager.tools/igbot/installation/cli/README.md)
 	- 👨‍💻 [Desktop App](http://docs.socialmanager.tools/gui/installation/README.md) (Windows, Linux, Mac)
 	- 🦀 [Raspberry PI](http://docs.socialmanager.tools/igbot/installation/raspberry/README.md) (Raspbian 9)
 	- 🐧 [Linux Server](http://docs.socialmanager.tools/igbot/installation/linux/README.md) (Debian 9 Server)
@@ -28,9 +28,8 @@
 	- 🔌 [VPN/Proxy](http://docs.socialmanager.tools/igbot/configs/vpn-proxy/README.md)
 	- 💿 [List of Mode](http://docs.socialmanager.tools/igbot/configs/modes/README.md)
 	- 📀 [How set Multi-account](http://docs.socialmanager.tools/igbot/configs/multiaccount/README.md)
-- 🚽 [Documentation](https://github.com/social-manager-tools/socialmanagertools-docs/blob/master/README.md) (I hate writing it so, please, read it)
-- 📚 [API Documentation](http://docs.socialmanager.tools/igbot/api/README.md) (How to create your personal bot or mode)
-- 💻 [Developers Guidelines](http://docs.socialmanager.tools/developers/guidesline/README.md) (If you want to contribute)
+- 📚 [API Documentation](http://docs.socialmanager.tools/igbot/api/README.md) (How create your personal bot or mode)
+- 💻 [Developers Guidelines](http://docs.socialmanager.tools/developers/guidesline/README.md) (If you want contributing)
 - 🐛 [Known Bugs](https://github.com/social-manager-tools/socialmanagertools-igbot/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 - 🍻 Community:
 	- 🐦 [Telegram group](http://telegram.ptkdev.io)
@@ -125,7 +124,7 @@ docker run --restart=always --name=socialmanagertools-igbot -d -v /path/to/confi
 If you want are available online [here](http://docs.socialmanager.tools/README.md).
 
 ## 👑 Sponsors
-Support this project by becoming a sponsor. 🙏 Become a sponsor on [patreon](https://www.patreon.com/join/ptkdev) or become top3 sponsor on [ko-fi](https://ko-fi.com/ptkdev). Your logo will show up here with a link to your website.
+Support this project by becoming a sponsor. 🙏 Become a sponsor on [patreon](http://patreon.ptkdev.io) or [opencollective](https://opencollective.com/social-manager-tools#sponsor). Your logo will show up here with a link to your website.
 
 [![](https://api.ptkdev.io/backers/sponsor1.png)](https://api.ptkdev.io/backers/sponsor1.html) [![](https://api.ptkdev.io/backers/sponsor2.png)](https://api.ptkdev.io/backers/sponsor2.html) [![](https://api.ptkdev.io/backers/sponsor-kofi1.png)](https://api.ptkdev.io/backers/sponsor-kofi1.html) [![](https://api.ptkdev.io/backers/sponsor-kofi2.png)](https://api.ptkdev.io/backers/sponsor-kofi2.html) [![](https://api.ptkdev.io/backers/sponsor-kofi3.png)](https://api.ptkdev.io/backers/sponsor-kofi3.html) [![](https://api.ptkdev.io/backers/sponsor3.png)](https://api.ptkdev.io/backers/sponsor3.html) [![](https://api.ptkdev.io/backers/sponsor4.png)](https://api.ptkdev.io/backers/sponsor4.html) [![](https://api.ptkdev.io/backers/sponsor5.png)](https://api.ptkdev.io/backers/sponsor5.html) [![](https://api.ptkdev.io/backers/sponsor6.png)](https://api.ptkdev.io/backers/sponsor6.html) [![](https://api.ptkdev.io/backers/sponsor7.png)](https://api.ptkdev.io/backers/sponsor7.html) [![](https://api.ptkdev.io/backers/sponsor8.png)](https://api.ptkdev.io/backers/sponsor8.html) [![](https://api.ptkdev.io/backers/sponsor9.png)](https://api.ptkdev.io/backers/sponsor9.html) [![](https://api.ptkdev.io/backers/sponsor10.png)](https://api.ptkdev.io/backers/sponsor10.html) [![](https://api.ptkdev.io/backers/sponsor11.png)](https://api.ptkdev.io/backers/sponsor11.html) [![](https://api.ptkdev.io/backers/sponsor12.png)](https://api.ptkdev.io/backers/sponsor12.html) [![](https://api.ptkdev.io/backers/sponsor13.png)](https://api.ptkdev.io/backers/sponsor13.html) [![](https://api.ptkdev.io/backers/sponsor14.png)](https://api.ptkdev.io/backers/sponsor14.html) [![](https://api.ptkdev.io/backers/sponsor15.png)](https://api.ptkdev.io/backers/sponsor15.html)
 
@@ -144,19 +143,20 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a> <a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=ptkdev" title="Documentation">📖</a> <a href="https://github.com/ptkdev/socialmanagertools-igbot/issues?q=author%3Aptkdev" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://twitter.com/maxfer75"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/nightly/.github/assets/avatar/maxfer75.jpg" width="100px;" alt=""/><br /><sub><b>MaXfer </b></sub></a><br /><a href="#design-maxfer75" title="Design">🎨</a></td>
-    <td align="center"><a href="https://twitter.com/tanik72"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/nightly/.github/assets/avatar/tanik72.jpg" width="100px;" alt=""/><br /><sub><b>Tanik</b></sub></a><br /><a href="#design-TaniK72" title="Design">🎨</a></td>
+    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=ptkdev" title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/maxfer75"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/maxfer75.jpg" width="100px;" alt=""/><br /><sub><b>MaXfer </b></sub></a><br /><a href="#design-maxfer75" title="Design">🎨</a></td>
+    <td align="center"><a href="https://twitter.com/tanik72"><img src="https://raw.githubusercontent.com/social-manager-tools/socialmanagertools-igbot/master/.github/assets/avatar/tanik72.jpg" width="100px;" alt=""/><br /><sub><b>Tanik</b></sub></a><br /><a href="#design-TaniK72" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/agoalofalife"><img src="https://avatars1.githubusercontent.com/u/15719824?v=4" width="100px;" alt=""/><br /><sub><b>Ilua Chubarov</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=agoalofalife" title="Code">💻</a></td>
     <td align="center"><a href="https://julianxhokaxhiu.com"><img src="https://avatars1.githubusercontent.com/u/1237070?v=4" width="100px;" alt=""/><br /><sub><b>Julian Xhokaxhiu</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=julianxhokaxhiu" title="Code">💻</a></td>
     <td align="center"><a href="https://lecouey.me"><img src="https://avatars1.githubusercontent.com/u/8327054?v=4" width="100px;" alt=""/><br /><sub><b>Léonard Lecouey</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=lecoueyl" title="Code">💻</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/lollymouth"><img src="https://avatars1.githubusercontent.com/u/43947950?v=4" width="100px;" alt=""/><br /><sub><b>Lollymouth</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=lollymouth" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/roNn23"><img src="https://avatars1.githubusercontent.com/u/849194?v=4" width="100px;" alt=""/><br /><sub><b>roNn23</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/issues?q=author%3AroNn23" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/roNn23"><img src="https://avatars1.githubusercontent.com/u/849194?v=4" width="100px;" alt=""/><br /><sub><b>roNn23</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=roNn23" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/MoltenKH0R"><img src="https://avatars1.githubusercontent.com/u/6023575?v=4" width="100px;" alt=""/><br /><sub><b>MoltenKH0R</b></sub></a><br /><a href="#translation-MoltenKH0R" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/m0s4ik"><img src="https://avatars1.githubusercontent.com/u/26578395?v=4" width="100px;" alt=""/><br /><sub><b>Andrea</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=m0s4ik" title="Code">💻</a> <a href="https://github.com/ptkdev/socialmanagertools-igbot/issues?q=author%3Am0s4ik" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/trungpv1601"><img src="https://avatars1.githubusercontent.com/u/25415217?v=4" width="100px;" alt=""/><br /><sub><b>trungpv1601</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=trungpv1601" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ermolaev-Nikolay"><img src="https://avatars1.githubusercontent.com/u/44134625?v=4" width="100px;" alt=""/><br /><sub><b>Ermolaev-Nikolay</b></sub></a><br /><a href="https://github.com/ptkdev/socialmanagertools-igbot/commits?author=Ermolaev-Nikolay" title="Code">💻</a></td>
   </tr>
 </table>
 

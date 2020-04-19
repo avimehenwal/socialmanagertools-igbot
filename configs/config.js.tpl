@@ -32,169 +32,47 @@ module.exports = {
 	// Multi account: http://docs.socialmanager.tools/igbot/installation/multiaccount
 	"bot_mode": "likemode_realistic", // this is NOT array. 1 mode is allowed
 
-	// Edit options of current bot_mode you use.
-	"bot_mode_options": {
-		"likemode_realistic": {
-			"hashtags": ["rome", "italy", "muraleshunter"], // recommended more than 20
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled", // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_realistic.json" // json databases with modes info for better report
-			},
-		},
-		"likemode_realistic_location": {
-			"instagram_location": ["213050058", "31499759", "675369430"], // recommended more than 20
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled", // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_realistic_location.json" // json databases with modes info for better report
-			},
-		},
-		"likemode_realistic_myfeed": {
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled", // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_realistic_myfeed.json" // json databases with modes info for better report
-			},
-		},
-		"likemode_classic": {
-			"hashtags": ["rome", "italy", "muraleshunter"], // recommended more than 20
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled", // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_classic.json" // json databases with modes info for better report
-			},
-		},
-		"likemode_classic_location": {
-			"instagram_location": ["213050058", "31499759", "675369430"], // recommended more than 20
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled", // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_classic_location.json" // json databases with modes info for better report
-			},
-		},
-		"likemode_superlike": {
-			"hashtags": ["rome", "italy", "muraleshunter"], // recommended more than 20
-			"superlike_n": "3",        // number of likes for user (max 12)
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled", // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_superlike.json" // json databases with modes info for better report
-			},
-		},
-		"likemode_superlike_location": {
-			"instagram_location": ["213050058", "31499759", "675369430"], // recommended more than 20
-			"superlike_n": "3",        // number of likes for user (max 12)
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled", // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_superlike_location.json" // json databases with modes info for better report
-			},
-		},
-		"commentmode_realistic": {
-			"hashtags": ["rome", "italy", "muraleshunter"], // recommended more than 20
-			"comments_list": ["⭐⭐⭐", "🔥", "Nice pic!"], // recommended more than 10 (emoij supported)
-			"comments_min": "300",      // min comments daily.
-			"comments_max": "400",      // max comments daily. In 2018 limit instagram is 500/day
-			"sleep_night": "disabled",  // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/commentmode_realistic.json" // json databases with modes info for better report
-			},
-		},
-		"commentmode_realistic_location": {
-			"instagram_location": ["213050058", "31499759", "675369430"], // recommended more than 20
-			"comments_list": ["comment1", "comment2", "comment3"], // recommended more than 10
-			"comments_min": "300",      // min comments daily.
-			"comments_max": "400",      // max comments daily. In 2018 limit instagram is 500/day
-			"sleep_night": "disabled",  // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/commentmode_realistic_location.json" // json databases with modes info for better report
-			},
-		},
-		"fdfmode_realistic": {
-			"hashtags": ["rome", "italy", "muraleshunter"], // recommended more than 20
-			"followday": "300",   // number of follow-defollow user/day, work in fdfmode_classic. In 2018 limit instagram is 500/day
-			"followrotate": "30", // follow 30 users, and defollow the first followed at 31 follow (in loop). If is 0 defollow all followed users previously by bot
-			"userwhitelist": ["user1", "user2", "user3"], // don't defollow this users
-			"sleep_night": "disabled",  // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/fdfmode_classic.json" // json databases with modes info for better report
-			},
-		},
-		"fdfmode_realistic_location": {
-			"instagram_location": ["213050058", "31499759", "675369430"], // recommended more than 20
-			"followday": "300",   // number of follow-defollow user/day, work in fdfmode_classic. In 2018 limit instagram is 500/day
-			"followrotate": "30", // follow 30 users, and defollow the first followed at 31 follow (in loop). If is 0 defollow all followed users previously by bot
-			"userwhitelist": ["user1", "user2", "user3"], // don't defollow this users
-			"sleep_night": "disabled",  // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/fdfmode_classic.json" // json databases with modes info for better report
-			},
-		},
-		"likemode_competitor_users": {
-			"account": "user_nickname", // instagram nickname
-			"likeday_min": "800",      // min like daily.
-			"likeday_max": "900",      // max like daily. In 2018 limit instagram is 1000/day
-			"sleep_night": "disabled",  // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/likemode_competitor_users.json" // json databases with modes info for better report
-			},
-		},
-		"postingmode_classic": {
-			"post_list": [
-				{uri: "example.jpeg", caption: "Hmmm...", date: "September 1, 2019 20:24:00"}, // One of the available options
-				{uri: "original.jpg", caption: "Nice!", date: "2019-09-01T20:24:00"}, // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-				{uri: "image.jpg", caption: "Words...", date: ""} // publish now
-			],
-			"sleep_night": "disabled",  // if you need stop bot in night
-			"sleep_end": "7:00",        // sleep from 00:00 to 7:00 am
-			"database": {
-				"default": "./databases/postingmode_classic.json" // json databases with modes info for better report
-			}
+	// BOT Configs
+	// [WORK] likemode_classic          - select random hashtag from config list and like 1 random photo (of last 20) | 400-600 like/day.
+	// [WORK] likemode_realistic        - select random hashtag from config list, like fast 10-12 photo and sleep 15-20min. Sleep at night
+	// [WORK] likemode_superlike        - select random hashtag from config list and like 3 random photo of same user | 400-600 like/day.
+	// [WORK] likemode_competitor_users - select account, select random followers, like 10-12 photo and sleep 15-20min.
+	// [WORK] comment_mode              - leave a comment under the photo via hashtag.
+	// [WORK] fdfmode_classic           - follow 30 users, and defollow the first followed at 31 follow (in loop). This method is not detected from socialblade. ~1h | 300/300 follow-defollow/day.
+	// [WORK] direct_new_followers      - send direct message to new followers
+	"bot_mode": "likemode_realistic",
+	"bot_likeday_min": 700,      // work in all likemode_*
+	"bot_likeday_max": 800,      // work in all likemode_*. In 2018 limit instagram is 1000/day
+	"bot_sleep_night": false,    // if you need stop bot in night
+	"bot_start_sleep": "7:00",   // sleep from 00:00 to 7:00 am, work in likemode_realistic, comment_mode, likemode_superlike and likemode_competitor_users
+	"bot_superlike_n": 3,        // superlike number of likes for user
+	"bot_followday": 300,        // number of follow-defollow user/day, work in fdfmode_classic. In 2018 limit instagram is 500/day
+	"bot_followrotate": 30,      // follow 30 users, and defollow the first followed at 31 follow (in loop), work in fdfmode_classic | If is 0 defollow all followed previously by bot
+	"bot_userwhitelist": ["user1", "user2", "user3"],   // usernames without @ | don't defollow this users on follow-defollow mode, work in fdfmode_classic
+	"comment_mode": {
+		"comments": {
+			"type": "array",
+			"source": ["comment1", "comment2", "comment3"],
 		}
 	},
-
-	// Force overwrite css selectors if not work, example: {"click_heart":"button#heart"}
-	// Syntax is apiName_functionName_selectorName, example: write::comment() => {"write_comment_textarea":"article > textarea.comment"}
-	"selectors": {},
+	"likemode_competitor_users": {
+		"account": "user_nickname" // without @
+	},
+	// direct config
+	"bot_direct_pause": 300, // in seconds
+	"bot_direct_follower_from": 24, // how many hours follow you
+	"bot_direct_message": `Thanks for follower!`,
 
 	// Puppeteer Configs
-	"puppeteer": {
-		"chrome_headless": "enabled", // hide google chrome window
-		"chrome_options": ["--disable-gpu", "--no-sandbox", "--window-size=1024x768"], // google chrome args
-		"chrome_useragent": "", // overwrite chrome user agent
-		"chrome_executable_path": "" /* If you want run installed chrome browser, not from npm module
-									  *  example for Mac OS: /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
-									  *  example for Linux:  /usr/bin/chromium
-									  */
-	},
+	"chrome_headless": true,
+	"chrome_devtools": false,
+	"chrome_options": ["--disable-gpu", "--no-sandbox", "--window-size=1024x768"],
+	"executable_path": "", // example for Mac OS: /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 
-	// Proxy
-	"proxy": {
-		"server": "",
-		"port": "",
-		"username": "",
-		"password": ""
-	},
+	// DATABASES
+	"fdfdatabase_path": "./databases/fdf.db", // databases with username of followed users with follodefollow mode
+	"followersdb_path": "./databases/followers.db", // databases with username of followers
+	"logdb_path": "./databases/logs.db",      // logs in sqllite database for better report
 
 	// LOGS
 	"log": {

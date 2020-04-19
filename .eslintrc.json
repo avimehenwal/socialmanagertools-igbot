@@ -22,6 +22,7 @@
 				"returns": "return"
 			}
 		},
+		"snakecasejs/whitelist": ["defaultViewport", "executablePath", "userAgent", "setUserAgent", "setViewport", "newPage","encodeURIComponent", "EventEmitter", "appendFile", "waitForSelector", "readFileSync", "writeFile", "existsSync", "mkdirSync"],
         "html/html-extensions": [".html", ".twig", ".vue"],
         "html/indent": "tab",
 		"snakecasejs/whitelist": ["defaultViewport", "executablePath", "userAgent", "setUserAgent", "setViewport", "newPage","encodeURIComponent", "EventEmitter", "bgRgb", "appendFile", "outputFileSync", "existsSync", "statusCode", "setExtraHTTPHeaders", "waitForSelector", "readFileSync", "waitForFileChooser", "iPhone"]
@@ -47,6 +48,7 @@
 		"space-before-blocks": ["error", "always"],
 		"space-before-function-paren": ["error", "never"],
 		"prefer-template": "error",
+		"require-atomic-updates": "warn",
 		"no-useless-concat": "error",
 		"linebreak-style": ["error", "unix"],
 		"template-curly-spacing": ["error", "never"],
@@ -55,8 +57,8 @@
 	    "jest/no-focused-tests": "error",
 	    "jest/no-identical-title": "error",
 	    "jest/prefer-to-have-length": "warn",
-		"jest/valid-expect": "error",
-		"snakecasejs/snakecasejs": "error",
+	    "jest/valid-expect": "error",
+		"snakecasejs/snakecasejs": "warn",
 		"jsdoc/require-param": 1,
 		"jsdoc/require-param-description": 1,
 		"jsdoc/require-param-name": 1,
